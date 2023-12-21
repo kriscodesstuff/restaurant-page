@@ -1,6 +1,6 @@
 
 
-const hero = () => {
+const home = () => {
     const div = document.querySelector('#content');
     const h1 = document.createElement('h1');
     const img = document.createElement('img');
@@ -16,4 +16,4 @@ const hero = () => {
 }
 
 
-export { hero };
+export { home };

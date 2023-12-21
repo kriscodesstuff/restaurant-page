@@ -1,5 +1,5 @@
 console.log('hi');
 
-import { hero } from "../js_modules/hero";
+// import { home } from "../js_modules/home";
 
-hero();
+// home();
