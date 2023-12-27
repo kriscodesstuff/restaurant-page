@@ -5,6 +5,8 @@ const menuCard = document.createElement('div');
 const menuName = document.createElement('h1');
 const p = document.createElement('p');
 const img = document.createElement('img');
+
+
 }
 
 export { menu };
