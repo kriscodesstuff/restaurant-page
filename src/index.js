@@ -1,5 +1,7 @@
-console.log('hi');
+const homeTab = document.querySelector('#home');
+const menuTab = document.querySelector('#menu');
+const contactTab = document.querySelector('#contact');
 
-// import { home } from "../js_modules/home";
-
-// home();
+homeTab.addEventListener('click', () => {
+    
+})
