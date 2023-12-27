@@ -6,14 +6,24 @@ const homeTab = document.querySelector('#home');
 const menuTab = document.querySelector('#menu');
 const contactTab = document.querySelector('#contact');
 
+
 homeTab.addEventListener('click', () => {
-    home();
+    if(!document.querySelector('#home-div')){
+      home();
+    };
+    
 })
 
 menuTab.addEventListener('click', () => {
-    menu();
+    if(!document.querySelector('#menu-div')){
+        menu();
+    };
+    
 })
 
 contactTab.addEventListener('click', () => {
-    contact();
+    if(!document.querySelector('#contact-div')){
+        contact();
+    };
+    
 })
