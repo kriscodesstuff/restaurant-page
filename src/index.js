@@ -1,5 +1,6 @@
 import { home } from "../js_modules/home";
 import { menu } from "../js_modules/menu";
+import { contact } from "../js_modules/contact";
 
 const homeTab = document.querySelector('#home');
 const menuTab = document.querySelector('#menu');
@@ -11,4 +12,8 @@ homeTab.addEventListener('click', () => {
 
 menuTab.addEventListener('click', () => {
     menu();
+})
+
+contactTab.addEventListener('click', () => {
+    contact();
 })
